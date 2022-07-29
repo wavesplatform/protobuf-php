@@ -1,0 +1,23 @@
+{
+    "name": "waves/protobuf",
+    "description": "Protocol Buffers PHP schemas for Waves Platform",
+    "keywords": [ "waves", "wavesplatform", "protobuf" ],
+    "homepage": "https://github.com/wavesplatform/protobuf-php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitrii Pichulin",
+            "email": "deem@deem.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Waves\\Protobuf\\": "src/Waves/Protobuf/",
+            "Waves\\ProtobufMetadata\\": "src/Waves/ProtobufMetadata/"
+        }
+    },
+    "require": {
+        "google/protobuf": "^3.21"
+    }
+}
